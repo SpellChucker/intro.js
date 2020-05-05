@@ -900,9 +900,9 @@
 
     // valid right must be at least a tooltipWidth
     // width away from left side
-    if (offsetLeft < tooltipWidth) {
-      _removeEntry(possibleAlignments, '-right-aligned');
-    }
+    // if (offsetLeft < tooltipWidth) {
+    //   _removeEntry(possibleAlignments, '-right-aligned');
+    // }
 
     if (possibleAlignments.length) {
       if (possibleAlignments.indexOf(desiredAlignment) !== -1) {
