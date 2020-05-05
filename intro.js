@@ -723,7 +723,7 @@
       case 'bottom-right-aligned':
         arrowLayer.className      = 'introjs-arrow top-right';
 
-        tooltipLayerStyleRight = 0;
+        tooltipLayerStyleRight = 10;
         _checkLeft(targetOffset, tooltipLayerStyleRight, tooltipOffset, tooltipLayer);
         tooltipLayer.style.top    = (targetOffset.height +  20) + 'px';
         break;
